@@ -19,6 +19,7 @@ public class EController
 	public String getNitin() {
 		return "Hello this is an endpoint created by Nitin";
 	}
+	
 	@RequestMapping("/test")
 	public String test() {
 		return "This is a test endpoint";
