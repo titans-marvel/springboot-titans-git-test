@@ -4,10 +4,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class EController {
+public class EController
+{
 	@GetMapping("/aatish")
-	public String hello() {
+	public String hello() 
+  {
 		return "Hii This is a endpoint which is created by aatish";
 
 }
+
+
+	@GetMapping("/nitin")
+	public String getNitin() {
+		return "Hello this is an endpoint created by Nitin";
+	}
+	
 }
