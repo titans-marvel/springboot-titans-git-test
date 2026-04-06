@@ -1,7 +1,8 @@
 package com.briz.springboot_titans_git_test;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping; //Get Mapping was not imported so I have imported it and now it is working fine.
+import org.springframework.web.bind.annotation.RequestMapping; 
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -20,9 +21,12 @@ public class EController
 	public String getNitin() {
 		return "Hello this is an endpoint created by Nitin";
 	}
+	@RequestMapping("/adnan") 
 	
-	@GetMapping("/teestaatish")
-	public String getTeesta() {
-		return "Hello this is an endpoint created by Teestaatish";
+	public String getAdnan() {
+		
+		return "Hello this is an endpoint created by Adnan";
 	}
+	
+
 }
