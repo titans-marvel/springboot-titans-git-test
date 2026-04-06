@@ -20,5 +20,9 @@ public class EController
 	public String getNitin() {
 		return "Hello this is an endpoint created by Nitin";
 	}
-
+	
+	@GetMapping("/teestaatish")
+	public String getTeesta() {
+		return "Hello this is an endpoint created by Teestaatish";
+	}
 }
