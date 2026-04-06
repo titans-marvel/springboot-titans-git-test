@@ -15,7 +15,14 @@ public class EController {
 	public String test() {
 		return "This is a test endpoint";
 	}
-	
+	@RequestMapping("/welcome")
+	public String welcome() {
+		return "Welcome to Spring Boot!";
+	}
+	@RequestMapping("/greet")
+	public String greet() {
+		return "Greetings from Spring Boot!";
+	}
 }
 
     
