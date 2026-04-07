@@ -6,15 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EController
 {
-	@RequestMapping("/aatish")
-	public String getaatish() 
-  {
-		return "End point created by aatish!";
-  }
-
-		@RequestMapping("/hello")
+		@RequestMapping("/hello briztech")
 	public String hello(){
-		return "Navinn Sinha!";
+		return "Navin Sinha!";
 	}
 	@RequestMapping("/info")
 	public String info() {
