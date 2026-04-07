@@ -17,4 +17,8 @@ public class EController {
 	public String hello(){
 		return "Navinn Sinha!";
 	}
+	@RequestMapping("/info")
+	public String info() {
+		return "This is some information about the application.";
+	}
 }
