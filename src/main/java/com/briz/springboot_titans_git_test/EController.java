@@ -8,21 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EController
 {
-	@GetMapping("/aatish")
-	public String hello() 
+	@RequestMapping("/aatish")
+	public String getaatish() 
   {
-		return "Hii This is a endpoint which is created by aatish";
+		return "End point created by aatish!";
 
-}
-
-
-	@GetMapping("/nitin")
-	public String getNitin() {
-		return "Hello this is an endpoint created by Nitin";
-	}
-	
-	@GetMapping("/teestaatish")
-	public String getTeesta() {
-		return "Hello this is an endpoint created by Teestaatish";
 	}
 }
