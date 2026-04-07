@@ -34,4 +34,11 @@ public class EController
 	public String info() {
 		return "This is some information about the application.";
 	} 
+
+	
+		@RequestMapping("testing")
+		public String hello1() {
+			return "testing";
+			
+		}
 }
