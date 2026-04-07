@@ -10,4 +10,9 @@ public class EController {
 	public String hello(){
 		return "Hello World!";
 	}
+		@RequestMapping("testing")
+		public String hello1() {
+			return "testing";
+			
+		}
 }
