@@ -8,6 +8,6 @@ public class EController {
 
 		@RequestMapping("/hello")
 	public String hello(){
-		return "Navin!";
+		return "Navinn Sinha!";
 	}
 }
