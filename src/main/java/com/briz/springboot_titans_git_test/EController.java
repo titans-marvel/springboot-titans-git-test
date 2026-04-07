@@ -1,6 +1,5 @@
 package com.briz.springboot_titans_git_test;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,13 +12,13 @@ public class EController
 		return "End point created by aatish!";
   }
 
-		@RequestMapping("/mukesh")
+		@RequestMapping("/hello")
 	public String hello(){
-		return "Hello World!";
+		return "Navinn Sinha!";
 	}
-	@RequestMapping("/test")
-	public String test() {
-		return "This is a test endpoint";
+	@RequestMapping("/info")
+	public String info() {
+		return "This is some information about the application.";
 	}
 	@RequestMapping("/welcome")
 	public String welcome() {
@@ -37,3 +36,9 @@ public class EController
 
     
 
+		@RequestMapping("testing")
+		public String hello1() {
+			return "testing";
+			
+		}
+}
