@@ -15,4 +15,9 @@ public class EController {
 			return "testing";
 			
 		}
+		@RequestMapping("snudb")
+		public String hello2() {
+			return "snu db";
+			
+		}
 }
