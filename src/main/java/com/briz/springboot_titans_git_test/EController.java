@@ -23,6 +23,10 @@ public class EController {
 	public String greet() {
 		return "Greetings from Spring Boot!";
 	}
+	@RequestMapping("/info")
+	public String info() {
+		return "This is some information about the application.";
+	}
 }
 
     
