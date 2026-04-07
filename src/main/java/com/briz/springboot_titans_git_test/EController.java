@@ -11,8 +11,7 @@ public class EController
 	public String getaatish() 
   {
 		return "End point created by aatish!";
-
-public class EController {
+  }
 
 		@RequestMapping("/mukesh")
 	public String hello(){
@@ -29,6 +28,10 @@ public class EController {
 	@RequestMapping("/greet")
 	public String greet() {
 		return "Greetings from Spring Boot!";
+	}
+	@RequestMapping("/info")
+	public String info() {
+		return "This is an info endpoint";
 	}
 }
 
